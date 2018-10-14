@@ -5,7 +5,7 @@ highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 
 # Setup
-title:            Hydeout
+title:            Ahmed HEDFI
 tagline:          'A Jekyll theme'
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://fongandrew.github.io
@@ -17,7 +17,7 @@ baseurl:          ''
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
+  name:           'Ahmed HEDFI'
   url:            https://twitter.com/fongandrewc
 
 paginate:         5
