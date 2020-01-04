@@ -7,7 +7,7 @@ remote_theme:     fongandrew/hydeout
 # Setup
 title:            .NET Labs
 tagline:          'A Jekyll theme'
-description:      'Your guide to code properly with .NET'
+description:      'Your guide to write a clean code with .NET'
 url:              https://fongandrew.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
