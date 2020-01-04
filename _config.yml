@@ -5,9 +5,9 @@ highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 
 # Setup
-title:            .NET Core Labs
+title:            .NET Labs
 tagline:          'A Jekyll theme'
-description:      'Your guide to code properly with .NET Core'
+description:      'Your guide to code properly with .NET'
 url:              https://fongandrew.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
