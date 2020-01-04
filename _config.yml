@@ -5,7 +5,7 @@ highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 
 # Setup
-title:            Clean Code
+title:            Code with ahmed
 tagline:          'A Jekyll theme'
 description:      'Your guide to code properly with .NET'
 url:              https://fongandrew.github.io
