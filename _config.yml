@@ -5,7 +5,7 @@ highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 
 # Setup
-title:            .NET Labs
+title:            DotNET Guide
 tagline:          'A Jekyll theme'
 description:      'Your guide to write a clean code with .NET'
 url:              https://fongandrew.github.io
