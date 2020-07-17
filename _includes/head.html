@@ -7,6 +7,10 @@
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+{% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/">
+{% endif %}
+
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
