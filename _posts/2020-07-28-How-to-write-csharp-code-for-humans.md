@@ -49,4 +49,4 @@ return total;
 ```
 
 **Rule 1:** You must choose a descriptive names so that the developer should not look somewhere else to understand what happens.
-{: .notice--success}
+{: .notice--success}               
