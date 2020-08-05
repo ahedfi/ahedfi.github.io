@@ -1,5 +1,5 @@
 ---
-title: "How to write c# code for humans - Part 1"
+title: "C# code for humans - Part 1"
 toc: true
 toc_sticky: true
 categories:
