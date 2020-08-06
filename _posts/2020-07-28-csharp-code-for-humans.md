@@ -149,7 +149,7 @@ use pascal case to the fields when its access modifier is different than private
 
 ## Naming Classes
 
-The class name should be chosen from problem domain so that the next time the another developer can easily use the code.
+The class name should be chosen from problem domain so that the next time the another developer can easily understand and use the code.
 
 
 You should follow specific guidelines for naming classes:
