@@ -1,5 +1,6 @@
 ---
 title: "C# code for humans - Part 1"
+permalink : "/Csharp-code-for-humans-Part-1/"
 toc: true
 toc_sticky: true
 categories:
@@ -14,7 +15,7 @@ Writing clean code should meet certain rules. Before listing these rules, I want
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 > <cite><a href="https://en.wikiquote.org/wiki/Martin_Fowler">Martin Fowler</a></cite>
 
-This quote resumes the meaning of clean code.  
+This quote summarizes what I am intending to explain.    
 So after solving a problem, you should ask yourself if your code is readable and maintainable as possible.  
 To answer this question,
 Check if your code meets the following rules.
@@ -137,9 +138,89 @@ public class Contact
    }
 }
 ```
-**Rule 5:** Use pascal case for the class name, public properties and method name . For the private fields, method arguments and local variables use camel case.
+**Rule 5:** Use **pascal case** for the **class name**, **public properties** and **method name** . For the **private fields**, **method arguments** and **local variables** use **camel case**.
 {: .notice--success}
 
 **N.B:** prefix the private field with underscores and 
 use pascal case to the fields when its access modifier is different than private.  
 {: .notice--primary}
+
+## Naming Classes
+
+The class name should be chosen from problem domain so that the next time the another developer can easily use the code.
+
+
+You should follow specific guidelines for naming classes:
+* Good class names are nouns not verbs. 
+* The name should be specific to create a [cohesive class](https://en.wikipedia.org/wiki/Cohesion_(computer_science))
+* The noun should lead the design to the single responsablity
+
+``` csharp
+// Bad Code
+Common
+Utility
+MyEntity
+```
+
+``` csharp
+// Clean Code
+Contact
+Account
+ActivityRepository
+```
+
+
+**Rule 6:** Use meaningful names in domain context
+{: .notice--success}
+
+## Naming Methods
+
+As we mentioned before, we should avoid meaningless names. A good method name should be meaningful without looking at the implementation.  
+
+If you find yourself using one of these words: `And`,`Or`, `If` and `_`,  you probably need to split the method because it is a sign that it has a lot of things to do.
+
+
+``` csharp
+// Bad Code
+Get
+Process
+ValidateAndLogin
+```
+
+``` csharp
+// Clean Code
+GetUser
+SendNotification
+Vatidate
+Login
+```
+
+**Rule 7:** The developer should not look at the implementation to understand what the method does
+{: .notice--success}
+
+## Naming boolean variables
+
+``` csharp
+// Bad Code
+status
+login
+close
+if(status)
+{
+
+}
+```
+
+``` csharp
+// Clean Code
+isEnabled
+isLogged
+isClosed
+if(isEnabled)
+{
+
+}
+```
+
+**Rule 8:** Boolean names should sound like asking true/false questions
+{: .notice--success}
