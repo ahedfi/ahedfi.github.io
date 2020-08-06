@@ -1,6 +1,8 @@
 ---
 title: "C# code for humans - Part 1"
 permalink : "/Csharp-code-for-humans-Part-1/"
+header: 
+  image : "/images/clean-code.jpg"
 toc: true
 toc_sticky: true
 categories:
