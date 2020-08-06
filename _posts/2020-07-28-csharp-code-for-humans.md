@@ -86,8 +86,8 @@ string strFirstName;
 
 ``` csharp
 // Clean Code
-int MaxSize;
-string FirstName;
+int maxSize;
+string firstName;
 ```
 **Rule 3:** Avoid Hungarian notation or any other type identification in the variable's name.
 {: .notice--success}
@@ -131,7 +131,7 @@ public class Contact
 
    public bool Validate(string name)
    {
-      var isValid = false 
+      var isValid = false; 
       // code 
       // .
       // .
