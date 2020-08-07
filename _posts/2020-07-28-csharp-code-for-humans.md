@@ -143,7 +143,7 @@ public class Contact
 **Rule 5:** Use **pascal case** for the **class name**, **public properties** and **method name** . For the **private fields**, **method arguments** and **local variables** use **camel case**.
 {: .notice--success}
 
-**N.B:** prefix the private field with underscores and 
+**N.B:** prefix the private field with underscore and 
 use pascal case to the fields when its access modifier is different than private.  
 {: .notice--primary}
 
