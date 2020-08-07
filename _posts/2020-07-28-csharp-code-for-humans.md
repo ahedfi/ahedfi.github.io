@@ -193,7 +193,7 @@ ValidateAndLogin
 // Clean Code
 GetUser
 SendNotification
-Vatidate
+Validate
 Login
 ```
 
