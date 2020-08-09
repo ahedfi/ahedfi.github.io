@@ -11,7 +11,7 @@ tags:
   - C#
 ---
 
-In this blog post, I will show you how to deal with the code smells that leads to significant loss of a tremendous amount of time during the development.  
+In this blog post, I will show you how to deal with the code smells that lead to significant loss of a tremendous amount of time during the development.  
 Writing clean code should meet certain rules. Before listing these rules, I want to start with this quote:
 
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
@@ -19,8 +19,7 @@ Writing clean code should meet certain rules. Before listing these rules, I want
 
 This quote summarizes what I am intending to explain.    
 So after solving a problem, you should ask yourself if your code is readable and maintainable as possible.  
-To answer this question,
-Check if your code meets the following rules.
+To answer this question, check if your code meets the following rules.
 
 # Poor Names
 
