@@ -12,7 +12,7 @@ tags:
   - C#
 ---
 
-In this post, we are going to talk about another category of code smells locolized at the method level.
+In this post, we are going to talk about another category of code smells localized at the method level.
 
 # Method Signatures
 
