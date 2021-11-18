@@ -12,6 +12,17 @@ tags:
   - C#
 ---
 
-In this blog, I will continue to list the best practices that you should follow during coding.
+In this post, we are going to talk about another category of code smells at the method level.
+
+# Method Signatures
+
+Method signature is composed by the return type, the method name, and the parameters. It could raise code smells if you don't use it properly.
+
+## Poor Method Signatures
+
+## Primitive Obsession
+
+## Long Parameter List
+
 
 Stay tuned, as more tips will be added soon.
