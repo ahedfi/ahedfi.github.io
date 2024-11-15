@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Clean Code's Corner"
+title                    : "Code it Right"
 title_separator          : "-"
-subtitle                 : "tips and tricks to programming with .NET Core"
+subtitle                 : "Essential Tips for Building with .NET Core"
 name                     : "Ahmed HEDFI"
 description              : "This blog aims to give tips and tricks for .net developers"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Ahmed HEDFI"
-  avatar           : "/images/myPhoto.jpg"
-  bio              : ".NET software engineer"
+  avatar           : "/images/AH2024.png"
+  bio              : ".NET Developer"
   location         : "Tunisia, Ariana"
   email            :
   links:

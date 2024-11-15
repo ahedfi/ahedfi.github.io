@@ -1,6 +1,6 @@
 ---
-title: "C# code for humans - Part 1"
-permalink : "/Csharp-code-for-humans-Part-1/"
+title: "C# code for humans"
+permalink : "/Csharp-code-for-humans/"
 header: 
   image : "/images/clean-code.jpg"
   teaser : "/images/clean-code.jpg"
