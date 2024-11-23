@@ -1,5 +1,5 @@
 ---
-title: "C# code for humans"
+title: "C# Code For Humans"
 permalink : "/Csharp-code-for-humans/"
 header: 
   image : "/images/clean-code.jpg"
