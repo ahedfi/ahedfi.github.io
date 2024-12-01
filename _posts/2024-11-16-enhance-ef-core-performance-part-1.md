@@ -1,6 +1,6 @@
 ---
 title: "Enhance EF Core Performance (Part I)"
-permalink : "/Enhance-ef-core-performance-part-1/"
+permalink : "/Enhance-ef-core-performance-part-1"
 header: 
   image : "/images/enhance-ef-core-performance/ef-core-logo.PNG"
   teaser : "/images/enhance-ef-core-performance/ef-core-logo.PNG"
@@ -204,8 +204,8 @@ I prepared a benchmark where I create 10 posts for each blog and here are the re
 
 These results highlight the performance differences between using SplitQuery and the standard single query approach.
 
-- For 1 blog: WithoutSplitQuery is faster, with a mean execution time of 7.487 ms compared to 11.942 ms for WithSplitQuery.
-- For 10 blogs: The gap widens slightly, with WithoutSplitQuery taking 10.835 ms, while WithSplitQuery takes 14.273 ms.
+- **For 1 blog**: WithoutSplitQuery is faster, with a mean execution time of 7.487 ms compared to 11.942 ms for WithSplitQuery.
+- **For 10 blogs**: The gap widens slightly, with WithoutSplitQuery taking 10.835 ms, while WithSplitQuery takes 14.273 ms.
 
 In both cases, memory usage is similar, with WithSplitQuery showing a slight increase in memory allocation compared to the non-split approach, but the difference is not substantial.
 
